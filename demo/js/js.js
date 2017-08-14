@@ -5,6 +5,4 @@ $(document).ready(function(){
 		round: true,
 		animation: true,
 	})
-
-	$('button').click(function(){$('.wrapper').show()})
 })
