@@ -20,7 +20,7 @@ Img-checkbox is a jQuery-based replacement for input checkboxes. It supports ima
 
 ```html
 <figure>
-    <div class="figure-content"><img src="img/Delete.png" class="img-fluid"></div>
+    <div class="figure-content"><img src="img/Delete.png"></div>
     <figcaption><img src="holder.js/50x50"></figcaption>
     <label><input type="checkbox" name="name"> Label</label>
 </figure>
@@ -41,8 +41,8 @@ $('figure').imgCheckbox({
 	textColor: 'white',
 	overlayBgColor: 'black',
 	overlayOpacity: '0.4',
-	round: false,
-	animation: false,
+	round: true,
+	animation: true,
 	animationDuration: 300,
 })
 ```
