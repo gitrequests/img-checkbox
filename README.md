@@ -36,13 +36,13 @@ $('figure').imgCheckbox()
 
 ```js
 $('figure').imgCheckbox({
-    width: 'auto',
+	width: 'auto',
 	height: 'auto',
 	textColor: 'white',
 	overlayBgColor: 'black',
 	overlayOpacity: '0.4',
 	round: false,
 	animation: false,
-    animationDuration: 300,
+	animationDuration: 300,
 })
 ```
