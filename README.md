@@ -1,6 +1,9 @@
 ## Img-checkbox
 Img-checkbox is a jQuery-based replacement for input checkboxes. It supports image, fontawesome, and custom content as input.
 
+## Demo
+[jsfiddle](https://jsfiddle.net/xkritikx/8dkw3e80/)
+
 ## Usage
 
 **Include jQuery**
