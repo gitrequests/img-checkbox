@@ -22,7 +22,7 @@ Img-checkbox is a jQuery-based replacement for input checkboxes. It supports ima
 **Add figure component**
 
 ```html
-<figure>
+<figure class="imgcheckbox">
     <div class="figure-content"><img src="img/Delete.png"></div>
     <figcaption><img src="holder.js/50x50"></figcaption>
     <label><input type="checkbox" name="name"> Label</label>
@@ -32,13 +32,13 @@ Img-checkbox is a jQuery-based replacement for input checkboxes. It supports ima
 **Activate plugin with default options**
 
 ```js
-$('figure').imgCheckbox()
+$('.imgcheckbox').imgCheckbox()
 ```
 
-**Or activate plugin with some options**
+**Or activate plugin with other options**
 
 ```js
-$('figure').imgCheckbox({
+$('.imgcheckbox').imgCheckbox({
 	width: 'auto',
 	height: 'auto',
 	textColor: 'white',
